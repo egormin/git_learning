@@ -24,8 +24,31 @@ git commit –a –m "new comment here"
 ```
 Чтобы посмотреть лог коммитов:
 ```
-git log"
+git log
 ```
-
+Чтобы посмотреть удаленные репозитории
+```
+git remote -v
+```
+Чтобы посмотреть удаленные репозитории
+```
+git remote -v
+```
+Посмотреть сконфигурированное имя пользователя:
+```
+git config user.name
+```
+Сконфигурировать имя пользователя:
+```
+git config user.name Vasya
+```
+Посмотреть сконфигурированный email пользователя:
+```
+git config user.email
+```
+Сконфигурировать email пользователя:
+```
+git config user.email vasya@tut.by
+```
 
 
