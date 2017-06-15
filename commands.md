@@ -19,7 +19,12 @@ git status
 git commit -m "first commit"
 ```
 Чтобы сохранить изменения для всех файлов (a - all), надо выполнить комманду:
-```git commit –a –m "new comment here"
+```
+git commit –a –m "new comment here"
+```
+Чтобы посмотреть лог коммитов:
+```
+git log"
 ```
 
 
