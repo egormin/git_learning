@@ -14,6 +14,12 @@ git add text.txt
 ```
 git status
 ```
+Чтобы сохранить изменения и добавить сообщение (m - message), надо выполнить комманду:
+```
+git commit -m "first commit"
+```
+Чтобы сохранить изменения для всех файлов (a - all), надо выполнить комманду:
+git commit –a –m ”new comment here”
 
 
 
