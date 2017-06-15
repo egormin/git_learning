@@ -55,7 +55,7 @@ git remote add origin https://github.com/egormin/ansible_sonar.git
 git remote show origin
 git remote show https://github.com/egormin/ansible_sonar.git
 ```
-Отправить изменения на сервер. Параметр -u позволит нам в будущем не указывать дополнительные параметры, а просто выполнять git push
+Отправить изменения на сервер. Параметр **-u** позволит нам в будущем не указывать дополнительные параметры, а просто выполнять git push
 ```
 git push -u origin master
 ```
