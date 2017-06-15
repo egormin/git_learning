@@ -50,5 +50,9 @@ git remote -v
 ```
 git remote add origin https://github.com/egormin/ansible_sonar.git
 ```
-
+Посмотреть дополнительную информацию о репозитории:
+```
+git remote show origin
+git remote show https://github.com/egormin/ansible_sonar.git
+```
 
