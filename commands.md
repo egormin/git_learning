@@ -26,14 +26,6 @@ git commit –a –m "new comment here"
 ```
 git log
 ```
-Чтобы посмотреть удаленные репозитории
-```
-git remote -v
-```
-Чтобы посмотреть удаленные репозитории
-```
-git remote -v
-```
 Посмотреть сконфигурированное имя пользователя:
 ```
 git config user.name
@@ -49,6 +41,14 @@ git config user.email
 Сконфигурировать email пользователя:
 ```
 git config user.email vasya@tut.by
+```
+Чтобы посмотреть удаленные репозитории
+```
+git remote -v
+```
+Чтобы добавить удаленный репозиторий
+```
+git remote add origin https://github.com/egormin/ansible_sonar.git
 ```
 
 
