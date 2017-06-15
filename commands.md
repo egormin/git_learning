@@ -71,3 +71,11 @@ git branch develop
 ```
 git checkout develop
 ```
+Клонировать репозиторий (все ветки)
+```
+git clone http://guthub.com/egormin/ansible_sonar.git 
+```
+Клонировать репозиторий (только одну ветку feature)
+```
+git clone http://guthub.com/egormin/ansible_sonar.git -b feature
+```
