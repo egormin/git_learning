@@ -34,3 +34,4 @@ git diff file.txt
 git diff --cached
 git diff --staged
 ```
+Это одно и то же.
