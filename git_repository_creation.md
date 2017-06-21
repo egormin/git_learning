@@ -25,3 +25,8 @@ git clone git://github.com/schacon/grit.git
 git clone git://github.com/schacon/grit.git mygrit
 ```
 Эта команда делает всё то же самое, что и предыдущая, только результирующий каталог будет назван `mygrit`.
+
+Для того, чтобы при клонировании не создавался дополнительный каталог, используется команда:
+```
+git clone git://github.com/schacon/grit.git .
+```
