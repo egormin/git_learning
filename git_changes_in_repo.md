@@ -28,3 +28,9 @@ git add file.txt
 git diff
 git diff file.txt
 ```
+
+***Посмотреть что конкретно поменялось в файлах уже после индексирования (после `git add . `) и до коммита:***
+```
+git diff --cached
+git diff --staged
+```
