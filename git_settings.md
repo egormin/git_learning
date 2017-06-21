@@ -12,3 +12,8 @@ git config --system --list
 git config --global --list
 git config --list
 ```
+***Посмотреть имя и email пользователя:***
+```
+git config --global user.name
+git config --global user.email
+```
