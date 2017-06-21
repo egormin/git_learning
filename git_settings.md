@@ -22,3 +22,13 @@ git config --global user.email
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
+***Посмотреть и сконфигурировать редактор:***
+```
+git config --global core.editor
+git config --global core.editor nano
+```
+***Посмотреть и сконфигурировать утилиту сравнения:***
+```
+git config --global merge.tool
+git config --global merge.tool vimdiff
+```
