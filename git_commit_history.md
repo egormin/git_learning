@@ -104,3 +104,16 @@ git log --pretty=format:"%h %s" --graph
 |--until, --before |Ограничить коммиты теми, которые сделаны до указанной даты|
 |--author|Показать только те коммиты, автор которых соответствует указанной строке|
 |--committer|Показать только те коммиты, коммитер которых соответствует указанной строке|
+
+Например, если вы хотите посмотреть из истории Git'а такие коммиты, которые вносят изменения в тестовые файлы, были сделаны Junio Hamano, не являются слияниями и были сделаны в октябре 2008го, вы можете выполнить что-то вроде такого:
+```
+git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \
+   --before="2008-11-01" --no-merges -- t/
+5610e3b - Fix testcase failure when extended attribute
+acd3b9e - Enhance hold_lock_file_for_{update,append}()
+f563754 - demonstrate breakage of detached checkout wi
+d1a43f2 - reset --hard/read-tree --reset -u: remove un
+51a94af - Fix "checkout --track -b newbranch" on detac
+b0ad11e - pull: allow "git pull origin $something:$cur
+```
+
