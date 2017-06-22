@@ -39,3 +39,44 @@ ca82a6dff817ec66f44342007202690a93763949 changed the version number
 a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
 ```
 
+***Чтобы создать собственный формат вывода***, используется `format`, который позволяет вам полностью создать собственный формат вывода лога. Это особенно полезно, когда вы создаёте отчёты для автоматического разбора (парсинга) — поскольку вы явно задаёте формат и уверены в том, что он не будет изменяться при обновлениях Git'а:
+```
+git log --pretty=format:"%h - %an, %ar : %s"
+ca82a6d - Scott Chacon, 11 months ago : changed the version number
+085bb3b - Scott Chacon, 11 months ago : removed unnecessary test code
+a11bef0 - Scott Chacon, 11 months ago : first commit
+```
+
+***Cписок наиболее полезных параметров формата***
+- %H 	Хеш коммита
+- %h 	Сокращённый хеш коммита
+- %T 	Хеш дерева
+- %t 	Сокращённый хеш дерева
+- %P 	Хеши родительских коммитов
+- %p 	Сокращённые хеши родительских коммитов
+- %an 	Имя автора
+- %ae 	Электронная почта автора
+- %ad 	Дата автора (формат соответствует параметру --date=)
+- %ar 	Дата автора, относительная (пр. "2 мес. назад")
+- %cn 	Имя коммитера
+- %ce 	Электронная почта коммитера
+- %cd 	Дата коммитера
+- %cr 	Дата коммитера, относительная
+- %s 	Комментарий
+
+Параметры `oneline` и `format` также полезны с другим параметром команды log — `--graph`. Этот параметр добавляет миленький ASCII-граф, показывающий историю ветвлений и слияний. Один из таких можно увидеть для нашей копии репозитория проекта Grit:
+```
+git log --pretty=format:"%h %s" --graph
+* 2d3acf9 ignore errors from SIGCHLD on trap
+*  5e3ee11 Merge branch 'master' of git://github.com/dustin/grit
+|\
+| * 420eac9 Added a method for getting the current branch.
+* | 30e367c timeout code and tests
+* | 5a09431 add timeout protection to grit
+* | e1193f8 support for heads with slashes in them
+|/
+* d6016bc require time for xmlschema
+*  11d191e Merge branch 'defunkt' into local
+```
+
+
