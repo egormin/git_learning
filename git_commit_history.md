@@ -117,3 +117,8 @@ d1a43f2 - reset --hard/read-tree --reset -u: remove un
 b0ad11e - pull: allow "git pull origin $something:$cur
 ```
 
+*** Просмотреть текущий коммит:***
+```
+git show HEAD
+```
+
