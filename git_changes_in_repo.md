@@ -2,7 +2,7 @@
   
   ![file_status_lifecycle](pic/file_status_lifecycle.png)
   
-  ![file_status_lifecycle](pic/3.jpg)
+  ![file_status_lifecycle](pic/3.JPG)
   
 Каждый файл в вашем рабочем каталоге может находиться в одном из двух состояний: 
 - ***под версионным контролем*** (отслеживаемые) 
