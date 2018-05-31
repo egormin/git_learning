@@ -144,3 +144,7 @@ b0ad11e - pull: allow "git pull origin $something:$cur
 git show HEAD
 ```
 
+***Просмотреть детали коммита:***
+```
+git show <hash>
+```
