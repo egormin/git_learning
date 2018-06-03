@@ -22,6 +22,11 @@ git config --global user.email
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
+***Установить имя и email пользователя для одного текущего репозитория:***
+```
+git config user.name "John Doe"
+git config user.email johndoe@example.com
+```
 ***Посмотреть и сконфигурировать редактор:***
 ```
 git config --global core.editor
