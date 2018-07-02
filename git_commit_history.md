@@ -73,7 +73,9 @@ a11bef0 - Scott Chacon, 11 months ago : first commit
 ***Пример***:
 ```
 git log --pretty=format:'%h %Cgreen<%an>%Creset %s %Cred%cr%Creset' --graph
+git log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"
 ```
+
 имя автора будет выделено зеленым, дата будет выделена красным.
 
 Параметры `oneline` и `format` также полезны с другим параметром команды log — `--graph`. Этот параметр добавляет миленький ASCII-граф, показывающий историю ветвлений и слияний. Один из таких можно увидеть для нашей копии репозитория проекта Grit:
