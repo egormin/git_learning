@@ -70,7 +70,7 @@ a11bef0 - Scott Chacon, 11 months ago : first commit
 
 `%Creset` - закончить выделение цветом
 
-****Пример****:
+***Пример***:
 ```
 git log --pretty=format:'%h %Cgreen<%an>%Creset %s %Cred%cr%Creset' --graph
 ```
