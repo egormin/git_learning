@@ -23,9 +23,9 @@ git config --get-regexp alias
 ```
 Выполнение внешних команд в алиасе гита:
 ```
-
+git config alias.com '!git add . && git commit -a'
 ```
-
+Воспользоваться можно: `git com "test commit"`
 
 Удалить алиас:
 ```
