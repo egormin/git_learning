@@ -65,9 +65,12 @@ a11bef0 - Scott Chacon, 11 months ago : first commit
 - %s 	Комментарий
 
 Выделение цветом происходит с помощью декораторов:
-`%C<color>` - начать выделение цветом. 
+
+`%C<color>` - начать выделение цветом
+
 `%Creset` - закончить выделение цветом
-Пример:
+
+****Пример****:
 ```
 git log --pretty=format:'%h %Cgreen<%an>%Creset %s %Cred%cr%Creset' --graph
 ```
