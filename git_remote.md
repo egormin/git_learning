@@ -22,3 +22,7 @@ git remote show origin
 ```
 git remote remove origin
 ```
+***Чтобы переименовать удалённый репозиторий***:
+```
+git remote rename origin shmarigin
+```
