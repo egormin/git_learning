@@ -18,3 +18,7 @@ git remote add my_rep https://Yahor_Skrabkou@gitstag.epam.com/kurmanbek/test_jav
 ```
 git remote show origin
 ```
+***Чтобы удалить удалённый репозиторий***:
+```
+git remote remove origin
+```
