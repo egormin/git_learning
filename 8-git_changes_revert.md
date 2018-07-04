@@ -35,6 +35,7 @@ git checkout -- benchmarks.rb
 git checkout benchmarks.rb
 ```
 Поверх файла benchmarks.rb будет скопирован файл из предыдущего коммита.
+
 ***Чтобы вернуть все файлы***, к прежнему состоянию:
 ```
 git checkout -- .
