@@ -69,6 +69,7 @@ git checkout master
 git merge develop
 ```
 ***Слить без fast forward:***
+Когда мы мержим feature в master лучше создавать без fast forward. Так будет виден результирующий мерж коммит
 ```
 git merge --no-ff develop
 ```
