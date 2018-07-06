@@ -47,5 +47,5 @@ git branch -u origin/serverfix
 ```
 ***Удаление ветки на удаленном сервере:***
 ```
-git push origin --delete serverfix\
+git push origin --delete serverfix
 ```
