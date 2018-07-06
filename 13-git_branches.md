@@ -67,6 +67,11 @@ FF не создаёт мерж коммитов
 После слияния:
 ![branches-5](pic/branches-5.png)
 
+Чтобы сделать `git pull` только если возможен `fast forward` и не надо будет ничего мержить:
+```
+git pull --ff-only
+```
+
 ***Удаление ветки***
 ```
 git branch -d hotfix
