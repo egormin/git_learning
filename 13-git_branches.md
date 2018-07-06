@@ -43,6 +43,8 @@ git log --oneline --decorate --graph --all
 ### Fast forward
 Из-за того, что коммит, на который указывала ветка, которую вы слили, был прямым потомком того коммита, на котором вы находились, Git просто переместил указатель ветки вперед. Другими словами, если коммит сливается с тем, до которого можно добраться, двигаясь по истории прямо, Git упрощает слияние, просто перенося указатель метки вперед (так как нет разветвления в работе). Это называется `fast-forward` (перемотка). 
 
+FF не создаёт мерж коммитов
+
 До слияния с --ff
 ![branches-4](pic/branches-4.png)
 
@@ -60,3 +62,16 @@ git branch -m old_branch new_branch         # Rename branch locally
 git push origin :old_branch                 # Delete the old branch    
 git push --set-upstream origin new_branch # Push the new branch, set local branch to track the new remote
 ```
+### Слияние веток
+Для слияния необходимо перейти в ветку, в которую будем сливать изменения и выполнить команду:
+```
+git checkout master
+git merge develop
+```
+***Слить без fast forward:***
+```
+git merge --no-ff develop
+```
+Получится так:
+![branches-6](pic/branches-6.png)
+
