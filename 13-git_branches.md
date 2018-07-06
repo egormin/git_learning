@@ -75,6 +75,10 @@ git branch -d hotfix
 ```
 git branch -D hotfix
 ```
+Удалить remote ветку:
+```
+git push origin --delete develop
+```
 ***Переименование ветки***
 ```
 git checkout old_branch
