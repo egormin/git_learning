@@ -37,3 +37,7 @@ git config --global core.editor nano
 git config --global merge.tool
 git config --global merge.tool vimdiff
 ```
+***Запоминать учетные данные при подключении по https:***
+```
+git config --global credential.helper cache
+```
