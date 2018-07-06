@@ -73,5 +73,6 @@ git merge develop
 git merge --no-ff develop
 ```
 Получится так:
+
 ![branches-6](pic/branches-6.png)
 
