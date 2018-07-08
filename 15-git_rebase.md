@@ -41,6 +41,7 @@ git rebase --onto master server client
 ```
 Это прямое указание “переключиться на ветку `client`, то есть взять изменения от общего предка веток `client` и `server` и повторить их на `master`”. Несмотря на некоторую сложность этого способа, результат впечатляет:
 ![rebase-4.png](pic/rebase-4.png)
+
 Теперь вы можете выполнить перемотку (fast-forward) для ветки `master`:
 ```
 git checkout master
