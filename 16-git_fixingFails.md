@@ -60,3 +60,7 @@ git reset --head HEAD@{4}
 git reset --soft HEAD@{2}
 git commit -am "some commits joined"
 ```
+Если передумали объединять:
+```
+git reset --soft orgin/master
+```
