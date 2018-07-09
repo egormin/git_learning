@@ -29,19 +29,19 @@ git status
 
 Команда reset имеет 3 параметра: `soft`, `mixed`, `hard`.
 
-1. Soft. 
+1. ***Soft***
 ```
 git reset --soft dsaf3f
 ```
 будет просто переключен поинтер на нужный коммит
 
-2. Mixed. 
+2. ***Mixed***
 ```
 git reset --mixed dsaf3f
 ```
 будет переключен поинтер на нужный коммит и обновлен индекс
 
-3. Hard. 
+3. ***Hard***
 ```
 git reset --hard dsaf3f
 ```
