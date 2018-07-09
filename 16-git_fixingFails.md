@@ -62,5 +62,5 @@ git commit -am "some commits joined"
 ```
 Если передумали объединять:
 ```
-git reset --soft orgin/master
+git reset --soft origin/master
 ```
