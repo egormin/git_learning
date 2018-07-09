@@ -64,4 +64,4 @@ git commit -am "some commits joined"
 ```
 git reset --soft origin/master
 ```
-  ![git_reset.jpg](pic/git_reset.jpg)
+  ![git_reset.JPG](pic/git_reset.JPG)
